@@ -1,0 +1,145 @@
+/*
+Gallery Daily
+*/
+
+.GalleryDaily
+{
+    clear: both; float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.GalleryDaily .Data
+{
+    float: left;
+    margin-right: 10px;
+}
+.GalleryDaily .Data .DayName
+{
+    clear: both; float: left;
+    width: 150px;
+    padding: 5px;
+    
+    background-color: #10ae00;
+    color:#ffffff;
+    
+    margin-bottom: 10px;
+}
+.GalleryDaily .Data .Daily
+{
+    clear: both; float: left;
+    width: 150px;
+    padding: 5px;
+    
+    background-color: #8c8c8c;
+    color:#ffffff;
+    
+    margin-bottom: 5px;
+}
+.GalleryDaily .Data a
+{
+    clear: both; float: left;
+    text-decoration: none;
+    color:blue;
+}
+.GalleryDaily .Data a:hover
+{
+    text-decoration: underline;
+}
+
+.GalleryDaily .Data1
+{
+    float: left;
+    width: 150px;
+    padding: 5px;
+    
+    background-color: #8c8c8c;
+    color:#ffffff;
+    
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.GalleryDaily .Data1 a
+{
+    color:#ffffff;
+}
+.GalleryDaily .Data1 a:hover
+{
+    color:#fff600;
+}
+
+/*
+Form
+*/
+
+.Form
+{
+    clear: both; float: left;
+    width: 100%;
+}
+.Form .Button
+{
+    float: left; 
+    background-color: #8c8c8c;
+    color: #ffffff;
+    
+    padding-bottom: 4px; padding-top: 4px;
+    padding-left: 15px; padding-right: 15px;
+    
+    font-size: 14px;
+    border: none;
+    
+    margin-right: 5px;
+}
+.Form .TextBox
+{
+    float: left;
+    font-size: 13px;
+    padding: 3px;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.Form .Button:hover
+{
+    background-color: #005bb9;
+}
+.Form span
+{
+    float: left;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+/*
+Title Content
+*/
+
+.TitleContent
+{
+    clear: both; float: left;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.TitleContent span
+{
+    clear: both; float: left;
+    
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    background-color: #004e77;
+    color:#ffffff;
+    
+    font-size: 30px;
+}
+.TitleContent .Arrow
+{
+    clear: both; float:left;
+    
+    border-bottom: 0px solid transparent; 
+    border-right: 20px solid #0477e1; 
+    border-top: 10px solid  transparent; 
+}

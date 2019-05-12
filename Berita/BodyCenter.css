@@ -1,0 +1,84 @@
+/*
+Body Center
+*/
+.BodyCenter
+{
+    clear: both; float: left;
+    width: 94%;
+    margin-left: 3%;
+}
+.Form
+{
+    clear: both; float: left;
+}
+.Form .Row
+{
+    clear: both; float: left;
+    margin-bottom: 8px;
+}
+.Form .TitleName
+{
+    font-size: 20px;
+    color:#61b400;
+}
+.Form .ErrorMessage
+{
+    font-size: 15px;
+    color:#de0000;
+}
+.Form span
+{
+    float: left;
+    font-size: 16px;
+    margin-top: 3px;
+}
+.Form .TextBox
+{
+    float: left;
+    font-size: 13px;
+    padding: 5px;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.Form .TextBox_Large
+{
+    float: left;
+    font-size: 13px;
+    padding: 5px;
+    
+    width: 300px;
+    height: 100px;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.Form .ButtonSubmit, .Form .ButtonReset
+{
+    float: left;
+    font-size: 14px;
+    
+    padding-bottom: 5px; padding-top: 5px;
+    padding-left: 20px; padding-right: 20px;
+    
+    border: none;
+    border: 1px solid #000000;
+    background-color: #bfbfbf;
+    color:#000000;
+
+    text-decoration: none;
+}
+.Form .ButtonSubmit:hover
+{
+    border-color:#0061b4;
+    background-color: #0061b4;
+    color:#ffffff;
+}
+.Form .ButtonReset:hover
+{
+    border-color:#b40000;
+    background-color: #b40000;
+    color:#ffffff;
+}

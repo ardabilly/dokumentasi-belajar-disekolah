@@ -1,0 +1,7 @@
+00:00:00-04:30:00~Tidur Minggu;04:30:01-04:31:00~Bangun Tidur;04:31:01-04:35:00~Bersih diri;08:00:00-09:00:00~nonton doraemon;14:30:00-15:00:00~Eksis - Trans 7;14:30:00-15:40:00~Sinetron - SCTV;
+00:00:00-04:30:00~Tidur Senin;04:30:01-04:31:00~Bangun Tidur;04:31:01-04:35:00~Bersih diri;12:30:00-13:00:00~Laptop si Unyil - Trans 7;12:35:00-12:40:00~MTV _ Trans 7;
+00:00:00-04:30:00~Tidur Selasa;04:30:01-04:31:00~Bangun Tidur;04:31:01-04:35:00~Bersih diri;12:30:00-13:00:00~Laptop si Unyil - Trans 7;
+00:00:00-04:30:00~Tidur Rabu;04:30:01-04:31:00~Bangun Tidur;04:31:01-04:35:00~Bersih diri;12:30:00-13:00:00~Laptop si Unyil - Trans 7;
+00:00:00-04:30:00~Tidur Kamis;04:30:01-04:31:00~Bangun Tidur;04:31:01-04:35:00~Bersih diri;12:00:00-12:40:00~MTV _ Trans 9;12:00:00-12:50:00~Sport - Net TV;12:30:00-13:00:00~Laptop si Unyil - Trans 7;
+00:00:00-04:30:00~Tidur Jum'at;04:30:01-04:31:00~Bangun Tidur;04:31:01-04:35:00~Bersih diri;10:00:00-11:00:00~My Trip My Adventure - Trans TV;12:30:00-13:00:00~Laptop si Unyil - Trans 7;
+00:00:00-04:30:00~Tidur Sabtu;04:30:01-04:31:00~Bangun Tidur;04:31:01-04:35:00~Bersih diri;08:30:00-09:30:00~My Trip My Adventure - Trans TV;

@@ -1,0 +1,128 @@
+
+.xBodyCenter
+{
+	clear: both; float: left;
+	width: 92%;
+	margin-left: 4%;
+	margin-top: 10px;
+}
+.xBodyCenter .TitleContent
+{
+	clear: both; float: left;
+	font-size: 30px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.xBodyCenter .TitleContent #q1
+{
+	float: left;
+	color: #007cb5;
+	margin-right: 15px;
+}
+.xBodyCenter .TitleContent #q2
+{
+	float: left;
+	color: #000000;
+
+}
+/*FORM*/
+.Form
+{
+	clear: both; float: left;
+	padding: 5px;
+	background-color: #fff;
+	margin-left: 10%;
+
+}
+.Form .Row
+{
+	clear: both; float: left;
+	margin-bottom: 8px;
+	width: 100%;
+
+}
+.Form .RowCenter
+{
+	clear: both; float: left;
+	margin-bottom: 8px;
+	width: 100%;
+
+	text-align: center;
+}
+.Form img
+{
+	width: 5px; height: 50px;
+}
+.Form span
+{
+	float: left;
+	font-size: 14px;
+	margin-top: 4px;
+}
+.Form .TitleMessage
+{
+	color: #00046e;
+	font-size: 20px;
+}
+.Form .ErrorMessage
+{
+	color: #ae0000;
+}
+.Form .TextBox
+{
+	float: left;
+	font-size: 13px;
+	padding: 3px;
+
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius: 5px;
+}
+.Form .TextBox_Large
+{
+	float: left;
+	font-size: 13px;
+	padding: 3px;
+
+
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius: 5px;
+
+	width: 500px;
+	height: 100px;
+}
+.Form .CheckBox
+{
+	float: left;
+	width: 20px;
+	margin-top: 3px;
+}
+.Form .ButtonSubmit, .Form .ButtonReset, .Form .ButtonDelete, .ButtonInsert, .ButtonBack
+{
+	float: left;
+	font-size: 14px;
+
+	color: #000000;
+	background-color: #8a8a8a;
+	border: none;
+
+	padding-bottom: 5px; padding-top: 5px;
+	padding-left: 20px; padding-right: 20px;
+
+}
+.Form .ButtonSubmit:hover
+{
+	color: #ffffff;
+	background-color: #0025e3;
+}
+.Form .ButtonReset:hover
+{
+	color: #ffffff;
+	background-color: #ba8300;
+}
+.Form .ButtonDelete:hover
+{
+	color: #ffffff;
+	background-color: darkred;
+}

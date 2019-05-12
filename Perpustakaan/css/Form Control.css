@@ -1,0 +1,475 @@
+/*
+================================================================================
+Other Div
+================================================================================
+*/
+
+#HiddenDiv
+{ display: none; }
+
+/*
+================================================================================
+Form
+================================================================================
+*/
+
+.Form
+{
+    clear: both; float:left;
+	
+    font-family:Arial;
+    font-size:15px;
+}
+
+.Form .Title
+{
+    clear: both; float:left; 
+    color:#004e77; font-size:20px; font-weight:bold;
+}
+
+.Form .IconTitle
+{
+    clear: both; float:left; 
+    width: 100%;
+    
+    text-align: center;
+}
+
+.Form .IconTitle img
+{
+    width: 80px;
+    height: 80px;
+}
+
+.Form .HorizontalRule
+{
+    float: left;
+    width: 100%;
+    height: 2px;
+    
+    background-color: #060606;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Form .FormPart
+{
+    float: left;
+    margin-right: 20px;
+}
+
+.Form .Row
+{
+    clear:both; float:left;
+    margin-top:5px; margin-bottom:5px;
+    width: 100%;
+}
+.Form span
+{ float: left; margin-top: 3px;  }
+
+.Form .ControlHover
+{ float: left; margin-left: -20px; opacity: 0; }
+.Form .ControlHover:hover
+{
+    opacity: 1;
+    margin-left: 5px;
+    
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.Form .ErrorMessage, .ErrorMessage a
+{ color:Red; font-size:14px; font-family:Arial; text-decoration: none; }
+.ErrorMessage a:hover
+{ text-decoration: underline; }
+.Form .InfoMessage
+{ color:#787878; font-size:14px; font-family:Arial; }
+
+.Form .CheckBox
+{ float:left; margin-top: 6px; }
+.Form .RadioButton
+{ float:left; margin-top: 5px; width: 13px; }
+.Form .Lable
+{ float:left; margin-top:5px; }
+.Form .Note
+{ float:left; margin-top:5px; font-size: 12px; color:#979797; }
+.Form .Selection
+{ float:left; border-bottom: 2px solid transparent; padding-bottom: 2px; }
+.Form .Selection:hover
+{ border-bottom: 2px solid #006ac4; }
+.Form .Textbox, .Form .Textbox_Multiline, .Form .Textbox_Date, .Form .Textbox_Length, .Form .Textbox_Small, .Form .Textbox_Smaller
+{
+    float:left;
+    font-size:13px;
+    
+    padding:3px;
+	
+    border: none;
+    border-bottom: 2px solid #afafaf;
+}
+.Form .Textbox:focus, .Form .Textbox_Date:focus, .Form .Textbox_Length:focus, .Form .Textbox_Small:focus, .Form .Textbox_Smaller:focus
+{
+    outline: none;
+    box-shadow: none;
+    
+    border-bottom: 2px solid #006ac4;
+    
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;    
+}
+.Form .Textbox_Multiline:focus
+{
+    outline: none;
+    box-shadow: none;
+    border-right: 2px solid #006ac4;
+    border-bottom: 2px solid #006ac4;
+}
+.Form .Textbox_Length
+{
+    width: 500px;
+}
+.Form .Textbox_Small
+{
+    width: 100px;
+}
+.Form .Textbox_Smaller
+{
+    width: 30px;
+}
+.Form .Textbox_Multiline
+{
+    width: 500px;
+    height: 80px;
+}
+.Form .Textbox_Date
+{ margin-top: -3px; width: 100px; }
+
+.Form .ComboBox
+{
+    float: left;
+    border: 1px solid #afafaf;
+    padding: 3px;
+}
+.Form .ComboBox:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+
+.Form .ButtonSubmit, .Form .ButtonReset, .Form .ButtonBack, .Form .ButtonInsert, .Form .ButtonSearch, .Form .ButtonReport, .Form .ButtonNavigation
+{ 
+    float: left;
+    padding:5px 20px 5px 20px; 
+    text-decoration: none; 
+    margin-top: 0px;
+    
+    border: none;
+    background-color: #c4c4c4;
+    color:#000000;
+}
+.Form .ButtonManage
+{ 
+    float: left;
+    padding:5px 20px 5px 20px; 
+    text-decoration: none; 
+    margin-top: 0px;
+    
+    font-size: 13px;
+    
+    border: none;
+    background-color: transparent;
+    color:#0080af;
+    border: 1px solid #0080af;
+    
+}
+
+.Form .ButtonSubmit:hover
+{ background-color:#007cb6; color:#ffffff; }
+.Form .ButtonReset:hover
+{ background-color:#ff0000; color:#ffffff; }
+.Form .ButtonBack:hover
+{ background-color:#08a100; color:#ffffff; }
+.Form .ButtonInsert:hover
+{ background-color:#885600; color:#ffffff; }
+.Form .ButtonSearch:hover
+{ background-color:#1a7b00; color:#ffffff; }
+.Form .ButtonReport:hover
+{ background-color:#bfa600; color:#ffffff; }
+.Form .ButtonManage:hover
+{ background-color:#0080af; color:#ffffff; }
+
+/*
+================================================================================
+Galllery Manage
+================================================================================
+*/
+
+#FormGalleryManage
+{
+    width: 100%;
+    border-bottom: 1px solid #bebebe;
+    font-size: 13px;
+}
+#FormGalleryManage span
+{
+    margin-top: 5px;
+}
+
+/*
+================================================================================
+Page Navigation
+================================================================================
+*/
+#FormPageNavigation
+{
+    margin-top: 20px;
+}
+
+.Form .ButtonNavigation
+{
+    float: left;
+    padding:5px 10px 5px 10px; 
+    text-decoration: none; 
+    margin-top: -3px;
+    
+    border: none;
+    background-color: #ffffff;
+    color:#000000;
+    border-bottom: 2px solid #c4c4c4;
+}
+.Form .ButtonNavigation:hover
+{ 
+    background-color:#008ee8; 
+    color:#ffffff; 
+    border-bottom: 2px solid #008ee8;
+}
+
+.Form .ButtonNavigationGo
+{
+    float: left;
+    padding:4px 10px 4px 10px; 
+    text-decoration: none; 
+    margin-top: 0px;
+    
+    background-color: #ffffff;
+    color:#000000;
+    border: 1px solid #c4c4c4;
+}
+.Form .ButtonNavigationGo:hover
+{
+    border: 1px solid #008ee8;
+    background-color:#008ee8; 
+}
+/*
+================================================================================
+Data Table
+================================================================================
+*/
+
+.DataTable
+{ 
+    clear:both; float:left; 
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+.DataTable .tHead
+{ background-color:#ffffff; }
+.DataTable .tHead td
+{ padding:5px 10px 5px 10px; text-align:center; font-size: 15px; font-weight: bold; border-bottom:1px solid #a5a5a5; }
+.DataTable a
+{ text-decoration:none; color:Blue; }
+.DataTable a:hover
+{ text-decoration:underline; }
+.DataTable #LinkBlank
+{ text-decoration:none; color:Black; }
+.DataTable #LinkBlank:hover
+{ text-decoration:underline; }
+
+.DataTable .tBody
+{ background-color:#ffffff; color:#000000;  }
+.DataTable .tBody td
+{ padding:5px 10px 5px 10px; border-bottom:1px solid #a5a5a5; }
+.DataTable .tBody .NoBorder
+{ padding:5px 10px 5px 10px; border-bottom:none; }
+
+.DataTable .tBody .c_Center
+{ text-align:center; }
+.DataTable .tBody .c_Left
+{ text-align:left; }
+.DataTable .tBody .c_Right
+{ text-align:right; }
+.DataTable .tBody .c_Manage img
+{
+    width: 20px;
+    height: 20px;
+
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    
+    background-color:#006fbd;
+}
+
+.DataTable .tBody:hover td
+{ background-color:#e2e2e2; }
+
+.DataTable .tBody .c_Manage #Edit:hover img
+{   
+    background-color:blue;
+}
+.DataTable .tBody .c_Manage #Delete:hover img
+{   
+    background-color:red;
+}
+.DataTable .tBody .c_Manage #View:hover img
+{   
+    background-color:#00b300;
+}
+
+/*
+================================================================================
+Data Float
+================================================================================
+*/
+
+.DataFloat
+{
+    clear: both; float: left;
+    width: 100%;
+}
+.DataFloat .Data
+{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    border: 1px solid #a5a5a5;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.DataFloat .Data span
+{
+    float: left;
+    padding: 5px;
+    font-size: 13px;
+}
+.DataFloat .Data a img
+{
+    float: left;
+    width: 20px; height: 20px;
+    padding: 3px;
+    background-color: #007cb6;
+}
+.DataFloat .Data #Edit:hover img
+{
+    background-color: blue;
+}
+.DataFloat .Data #Delete:hover img
+{
+    background-color: red;
+}
+
+/*
+================================================================================
+Data Report Head
+================================================================================
+*/
+
+.DataReportHead
+{
+    clear: both; float: left;
+    width: 100%;
+    
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.DataReportHead .Data
+{
+    clear: both; float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.DataReportHead .Data span
+{
+    float: left; font-size: 16px;
+}
+.DataReportHead .Data .Lable
+{
+    color: #4f4f4f;
+}
+
+/*
+================================================================================
+Diagram - Circle
+================================================================================
+*/
+
+.DiagramCircle
+{ clear: both; float: left; width: 100%; margin-top: 10px; margin-bottom: 10px; }
+.DiagramCircle .diagram
+{ float: left; margin-right: 10px; margin-bottom: 10px; }
+.DiagramCircle .diagram .NoteCenter
+{
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color:#333;
+    margin-top: 35%;
+    
+}
+.DiagramCircle .Note
+{ clear: both; float: left; width: 100%; }
+.DiagramCircle .Note .Square
+{ float: left; width: 15px; height: 15px; margin-right: 5px; }
+.DiagramCircle .Note span
+{ float: left; font-size: 14px; margin-right: 20px; }
+
+/*
+================================================================================
+Diagram - Square
+================================================================================
+*/
+
+.DiagramSquare
+{
+    clear: both; float: left;
+    width: 100%;
+}
+.DiagramSquare .Name
+{
+    clear: both; float: left;
+    font-size: 13px;
+    color: #818181;
+}
+.DiagramSquare .Numeric
+{
+    float: right;
+    font-size: 13px;
+    color: #818181;
+}
+.DiagramSquare .DiagramData
+{
+    clear: both; float: left;
+    width: 200px; height: 5px;
+    background-color: #d6d6d6;
+}
+.DiagramSquare .DiagramData .Presentase
+{
+    float: left;
+    width: 0%; 
+    height: 5px;
+    background-color: #00b9ee;
+}
+.DiagramSquare .Note
+{
+    clear: both; float: left;
+    font-size: 13px;
+    color: #818181;
+    width: 100%;
+}
